@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2faec14c32.js" crossorigin="anonymous"></script>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery -->
+
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+
+    <title>Portfolio</title>
+</head>
+
+<body id="body" bgcolor="orange">
+
+    <!-- side menu ↙ -->
+
+    <div class="sidebar">
+        <a href="#myphoto">
+            <div id="sideTitle">
+                <div id="namebox">Peter<br>Tsai<br>
+                    <div id="smallname">Progame<br>Developer</div>
+                </div>
+
+            </div>
+        </a>
+        <div id="menu">
+            <a id="about" href="#AboutA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani1" class="hide"></div>
+                    <i class="far fa-address-card"></i>
+                    <p class="menutext">About</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Experience" href="#ExperienceA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani2" class="hide"></div>
+                    <i class="fas fa-chart-line"></i>
+                    <p class="menutext">Experience</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Project" href="#ProjectA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani3" class="hide"></div>
+                    <i class="fas fa-tasks"></i>
+                    <p class="menutext">Project</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Skills" href="#SkillsA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani4" class="hide"></div>
+                    <i class="fas fa-chart-bar"></i>
+                    <p class="menutext">Skills</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Adwards" href="#AwardsH" class="smooth-scroll">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani5" class="hide"></div>
+                    <i class="fas fa-medal"></i>
+                    <p class="menutext">Adwards</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Education" href="#EducationA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani6" class="hide"></div>
+                    <i class="fas fa-graduation-cap"></i>
+                    <p class="menutext">Education</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+            <a id="Contact" href="#ContactA">
+                <div class="btn-white waves-effect smenu" id="button">
+                    <div id="hideani7" class="hide"></div>
+                    <i class="fas fa-envelope"></i>
+                    <p class="menutext">Contact</p>
+                </div>
+            </a>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+
+    <!-- main body ↙ -->
+
+    <div class="maincontent">
+        <div id="myphoto">
+            <div id="cover"></div>
+            <div id="phototext"></div>
+        </div>
+
+        <div class="crossline" id="AboutA" name="aboutA">ABOUT</div>
+        <div id="aboutContainer">
+
+            <blockquote id="aboutTitle">
+                <span>前端網頁開發人員，熱衷於遊戲開發，以獨立遊戲製作為目標。</span>
+            </blockquote>
+
+            <div id="innerText">
+                <p>嚮往有挑戰性的活動與挑戰，對世界的眾多事物都抱有強烈的好奇心，對於自己有<br>興趣的事情會不停的投入自己的熱情來完成。<br> 作為一名程式開發人員，我專注於細節，擁有學習的熱情，在未來能看到別人
+                    <br>遊玩我製作的遊戲是我從小到大的夢想。</p>
+            </div>
+
+        </div>
+        <div class="crossline" id="ExperienceA">EXPERIENCE</div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-1"><a class="acontainer" href="#"><img class="icon" src="img/html.png"></a></div>
+                        <div class="col-12 col-sm-11">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline">HTML</a></span></p>
+                        </div>
+                        <div class="role brown-text">Self-Study</div>
+
+                    </div>
+                    <p id="innerp">在課程之外精進HTML5，以完成委託的網頁。</p>
+                    <ul style='list-style-type:disc;' class="ulText">
+                        <li>更加明確知道標籤的使用</li>
+                        <li>學習JavaScript讓網頁更加生動</li>
+
+                    </ul>
+                </div>
+                <div class="card-action">November 2018</div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-1"><a class="acontainer" href="#"><img class="icon" src="img/CSS.png"></a></div>
+                        <div class="col-12 col-sm-11">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline">CSS</a></span></p>
+                        </div>
+                        <div class="role brown-text">Self-Study</div>
+
+                    </div>
+                    <p id="innerp">學習以CSS製作網頁動畫，以及大部分的CSS語法，用於宿營的網頁。</p>
+                    <ul style='list-style-type:disc;' class="ulText">
+                        <li>掌握不使用JQuery達成網頁動畫的能力</li>
+                        <li>熟悉大部分CSS Style的使用方式</li>
+                        <li>學習使用網路上的各種套件 如Fontawesome</li>
+                    </ul>
+                </div>
+                <div class="card-action">November 2018</div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-1"><a class="acontainer" href="#"><img class="icon" src="img/firebase.png"></a></div>
+                        <div class="col-12 col-sm-11">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline">Firebase</a></span></p>
+                        </div>
+                        <div class="role brown-text">Self-Study</div>
+
+                    </div>
+                    <p id="innerp">參加APP競賽時所學習的系統，為Google推出的後台管理系統。</p>
+                    <ul style='list-style-type:disc' class="ulText">
+                        <li>掌握Firebase一般用戶的可用功能</li>
+                        <li>成功使用Firebase做出帳號系統，如信箱驗證、更改帳號密碼等功能</li>
+                        <li>以Firebase研究出聊天室</li>
+                    </ul>
+                </div>
+                <div class="card-action">May 2019</div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-1"><a class="acontainer" href="#"><img class="icon" src="img/PHP.png"></a></div>
+                        <div class="col-12 col-sm-11">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline">PHP</a></span></p>
+                        </div>
+                        <div class="role brown-text">Front End Developer</div>
+
+                    </div>
+                    <p id="innerp">參加APP競賽時所學習的語法，專用於資料庫的資料運輸等</p>
+                    <ul style='list-style-type:disc;' class="ulText">
+                        <li>掌握基礎PHP語法</li>
+                        <li>同時間的學習MySQL資料庫的建立</li>
+                    </ul>
+                </div>
+                <div class="card-action">July 2019</div>
+            </div>
+
+
+        </div>
+
+        <div class="crossline" id="ProjectA">PROJECT</div>
+        <div class="cardContainer2">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/camp.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">宿營活動網頁<i class="right"></i></span>
+                    <p>提供宿營一個良好的管理環境</p>
+
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Detail<i class="material-icons right">close</i></span>
+                    <p>製作出一個一頁式的活動網站，使用者可以看到自己小隊所累積的積分，也可以使用序號來為自己的組隊加分。管理者則可以看到所有小隊的積分，也可以製作序號給予使用者加分。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/chata.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">ChaTa<i class="right"></i></span>
+                    <p>線上的才藝交換APP</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Detail<i class="material-icons right">close</i></span>
+                    <p>ChaTa是一個配對APP，在這個APP可以讓你與其他人交換自己的才藝，你可以貼出你想要徵求的才藝，其他用戶看到就可以與你分享，也可以透過每日系統的自動分配來認識朋友。ChaTa使用Firebase做為資料庫，有相當程度的資訊安全。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/%E9%86%AC%E9%81%8Aapp-14.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">醬油<i class="right"></i></span>
+                    <p>管理你的旅遊行程</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Detail<i class="material-icons right">close</i></span>
+                    <p>醬油是一個管理旅遊團的APP，有群組的聊天頻道。群主還能夠排出旅遊的行程讓所有成員看到。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/movie.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">米干<i class="right"></i></span>
+                    <p>米干的由來與做法</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Detail<i class="material-icons right">close</i></span>
+                    <p>透過訪談米干的製作店家，以及拍攝米干料理的餐廳，讓觀眾了解米干是什麼樣的料理。由於組員不做事，所以基本上九成的製作為本人一手包辦。</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="crossline" id="SkillsA">Skills</div>
+
+        <div class="Scards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            <p>HTML</p>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline"></a></span></p>
+                        </div>
+
+                    </div>
+                    <div class="skillBox">
+                        <img src="img/html.png" class="skillImg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-2">
+                            <p>CSS</p>
+                        </div>
+                        <div class="col-12 col-sm-10">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline"></a></span></p>
+                        </div>
+
+                    </div>
+                    <div class="skillBox">
+                        <img src="img/CSS.png" class="skillImg">
+                        <img src="img/boostrap.png" class="skillImg">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <p>Javascript</p>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline"></a></span></p>
+                        </div>
+
+                    </div>
+                    <div class="skillBox">
+                        <img src="img/javascript.png" class="skillImg">
+                        <img src="img/JQuery.png" class="skillImg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <p>Back-End</p>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <p id="Proname"><span class="card-title"><a href="#"  class="teal-text hoverline"></a></span></p>
+                        </div>
+
+                    </div>
+                    <div class="skillBox">
+                        <img src="img/firebase.png" class="skillImg">
+                        <img src="img/PHP.png" class="skillImg">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="crossline" id="AwardsH">AWARDS</div>
+
+        <div class="Acards">
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-7">
+                            <p>Chata</p>
+                        </div>
+                        <p class="intro">
+                            Back-End Developer | April 2017
+                        </p>
+
+                    </div>
+                    <ul id="Awardsdot" class="ulText">
+                        <li>最佳人氣獎。</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="crossline" id="EducationA">EDUCATION</div>
+
+        <div class="Ecards">
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-9">
+                            <p>東港高中</p>
+                        </div>
+                        <p class="intro">
+                            Graduate | April 2017
+                        </p>
+                     
+                    </div>
+   <ul id="Edudot" class="ulText">
+                            <li>於東港高中畢業</li>
+                        </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="crossline" id="ContactA">Contact</div>
+
+        <div class="Contact">
+            <div class="container">
+
+                <p class="ConP">
+                    <a href="mailto:a8336782@gmail.com" class="btn-floating btn-large waves-effect waves-light brown">
+                     <i class="fa fa-envelope"></i>
+                     
+                     </a>
+                    <a aria-label="Email Andrew" href="mailto:a8336782@gmail.com" class="hoverline">a8336782@gmail.com</a>
+                </p>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+<script>
+    //#F4F4F4
+
+    let anchorlinks = document.querySelectorAll('a[href^="#"]')
+
+    for (let item of anchorlinks) { // relitere 
+        item.addEventListener('click', (e) => {
+            let hashval = item.getAttribute('href')
+            let target = document.querySelector(hashval)
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+            history.pushState(null, null, hashval)
+            e.preventDefault()
+        })
+    }
+
+
+
+    $(document).ready(function() {
+
+        $(about).hover(function() {
+            $("#hideani1").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(about).mouseleave(function() {
+            $("#hideani1").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(about).mouseleave(function() {
+            $("#hideani1").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+
+        /* ----- */
+
+
+        $(Experience).hover(function() {
+            $("#hideani2").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Experience).mouseleave(function() {
+            $("#hideani2").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Experience).mouseleave(function() {
+            $("#hideani2").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+        $(Project).hover(function() {
+            $("#hideani3").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Project).mouseleave(function() {
+            $("#hideani3").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Project).mouseleave(function() {
+            $("#hideani3").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+
+        /* ----- */
+        $(Skills).hover(function() {
+            $("#hideani4").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Skills).mouseleave(function() {
+            $("#hideani4").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Skills).mouseleave(function() {
+            $("#hideani4").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+
+        /* ----- */
+        $(Adwards).hover(function() {
+            $("#hideani5").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Adwards).mouseleave(function() {
+            $("#hideani5").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Adwards).mouseleave(function() {
+            $("#hideani5").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+
+        /* ----- */
+        $(Education).hover(function() {
+            $("#hideani6").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Education).mouseleave(function() {
+            $("#hideani6").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Education).mouseleave(function() {
+            $("#hideani6").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+
+        /* ----- */
+        $(Contact).hover(function() {
+            $("#hideani7").animate({
+                width: "0.15vw"
+            }, 200);
+
+        });
+
+        $(Contact).mouseleave(function() {
+            $("#hideani7").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+        $(Contact).mouseleave(function() {
+            $("#hideani7").animate({
+                width: "0vw"
+            }, 0);
+        });
+
+
+        /* ----- */
+
+        $(about).hover(function() {
+            $(".btn-white").css("background-color", "yellow!important")
+        });
+
+    });
+
+</script>
+
+</html>
